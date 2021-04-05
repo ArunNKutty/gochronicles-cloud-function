@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-var substrings = []string{"Google","Oracle","Microsoft","Amazon","google","oracle","microsoft","amazon","adobe"}
+var substrings = []string{"Google","Oracle","Microsoft","Amazon","google","oracle","microsoft","amazon","Adobe"}
 
 //CopyRight adds a copyright symbol if the above strings are encountered
 func CopyRightWord(w http.ResponseWriter, r *http.Request) {
